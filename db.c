@@ -20,7 +20,7 @@ int main() {
         print_prompt();
         read_input(inputBuffer);
 
-        if(strcmp(inputBuffer->buffer, '.exit') == 0) {
+        if(strcmp(inputBuffer->buffer, ".exit") == 0) {
             close_input_buffer(inputBuffer);
             exit(EXIT_SUCCESS);
         } else {
